@@ -1,0 +1,82 @@
+[
+  {
+    "decision_id": "DEC00001",
+    "case_id": "CASE001",
+    "customer_name": "Rajesh Kumar",
+    "timestamp": "2025-12-30T15:57:06.516603",
+    "input_data": {
+      "amount": 25000,
+      "days_overdue": 15,
+      "past_attempts": 1,
+      "customer_type": "Individual",
+      "loan_type": "Personal Loan"
+    },
+    "ai_decision": {
+      "risk_level": "LOW",
+      "confidence": 0.9,
+      "reason": "Case is recently overdue with low amount. Customer likely to pay with gentle reminder.",
+      "recommended_action": "Send automated payment reminder. Schedule follow-up call in 3 days."
+    },
+    "status": "pending_review"
+  },
+  {
+    "decision_id": "DEC00002",
+    "case_id": "CASE002",
+    "customer_name": "Priya Sharma",
+    "timestamp": "2025-12-30T16:08:50.398671",
+    "input_data": {
+      "amount": 150000,
+      "days_overdue": 90,
+      "past_attempts": 5,
+      "customer_type": "Individual",
+      "loan_type": "Home Loan"
+    },
+    "ai_decision": {
+      "risk_level": "MEDIUM",
+      "confidence": 0.75,
+      "reason": "Case shows mixed indicators. Moderate attention required with proactive follow-up.",
+      "recommended_action": "Assign to recovery agent for personal follow-up. Offer payment plan options."
+    },
+    "status": "pending_review"
+  },
+  {
+    "decision_id": "DEC00003",
+    "case_id": "CASE001",
+    "customer_name": "Rajesh Kumar",
+    "timestamp": "2025-12-30T16:36:08.601717",
+    "input_data": {
+      "amount": 25000,
+      "days_overdue": 15,
+      "past_attempts": 1,
+      "customer_type": "Individual",
+      "loan_type": "Personal Loan"
+    },
+    "ai_decision": {
+      "risk_level": "LOW",
+      "confidence": 0.9,
+      "reason": "Case is recently overdue with low amount. Customer likely to pay with gentle reminder.",
+      "recommended_action": "Send automated payment reminder. Schedule follow-up call in 3 days."
+    },
+    "status": "pending_review"
+  },
+  {
+    "decision_id": "DEC00004",
+    "case_id": "CASE001",
+    "customer_name": "Rajesh Kumar",
+    "timestamp": "2025-12-30T16:47:42.316775",
+    "input_data": {
+      "amount": 25000,
+      "days_overdue": 15,
+      "past_attempts": 1,
+      "customer_type": "Individual",
+      "loan_type": "Personal Loan"
+    },
+    "ai_decision": {
+      "risk_level": "LOW",
+      "confidence": 0.9,
+      "reason": "Case is recently overdue with low amount. Customer likely to pay with gentle reminder.",
+      "recommended_action": "Send automated payment reminder. Schedule follow-up call in 3 days."
+    },
+    "status": "pending_review"
+  }
+]
